@@ -1,0 +1,405 @@
+/* COMMON CSS START */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+/* COMMON CSS END */ 
+
+/* NAVBAR CSS START */
+#navbar{
+    padding-top: 28px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.logo{
+    width: 30%;
+}
+#navbar .nav-items{
+    width: 70%;
+}
+#navbar .navbar-wrapper{
+    display: flex;
+}
+#navbar .nav-items ul{
+    display: flex;
+    justify-content: flex-end;
+}
+#navbar .nav-items ul li a{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    margin-left: 60px;
+}
+#navbar .nav-items ul li:first-child a{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    margin-left: 60px;
+}
+#navbar .nav-items ul li a:hover{
+    color: #000;
+}
+/* NAVBAR CSS END */
+
+
+
+/* BANNER CSS START */
+#banner{
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 462px 0;
+}
+#banner .banner-wrapper p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFC178;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+#banner .banner-wrapper h1{
+    font-family: "Open Sans", sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+    color: #ffffff;
+}
+#banner .banner-wrapper h1 span{
+    font-family: "Open Sans", sans-serif;
+    font-size: 88px;
+    font-weight: 400;
+    color: #ffffff;
+    display: block;
+}
+/* BANNER CSS END */
+
+
+
+/* SECOND_PART CSS END */
+.second-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#second-part .second-wrapper img{
+    padding: 286px 0;
+}
+#second-part .second-wrapper p{
+    font-family: "Open Sans", sans-serif;
+    padding-left: 143px;
+}
+#second-part .second-wrapper p .one{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784;
+}
+#second-part .second-wrapper p .two{
+    font-family: "Open Sans", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    display: block;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 13px;
+}
+#second-part .second-wrapper p .three{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+    text-transform: uppercase;
+    line-height: 32px;
+    color: white;
+    margin-top: 13px;
+}
+#second-part .second-wrapper p .four{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    text-transform: uppercase;
+    color: #FBD784;
+    margin-top: 66px;
+}
+
+#second-part .second-wrapper .four a{
+    background-color: #FBD784;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: #000000;
+}
+#second-part .second-wrapper .four a:hover{
+    background-color: #FFA343;
+    transition: 0.5s;
+}
+/* SECOND_PART CSS END */
+
+
+
+/* THIRD_PART CSS END */
+.third-wrapper{
+    background: url(../images/image\ 2\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 559px;
+    padding-bottom: 32px;
+}
+#third-part .third-wrapper .nine{
+    text-align: center;
+    padding: 0 194px;
+}
+#third-part .third-wrapper .nine .five{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    color: #FBD784;
+}
+#third-part .third-wrapper .nine .six{
+    font-family: "Open Sans", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 13px;
+    color: #ffffff;
+    display: block;
+}
+#third-part .third-wrapper .nine .seven{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 14px;
+    width: 893px;
+    line-height: 32px;
+    color: #ffffff;
+    display: block;
+}
+#third-part .third-wrapper .nine .eight{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 26px;
+    margin-bottom: 32.92px;
+    color: #FBD784;
+    display: block;
+}
+#third-part .third-wrapper .eight a{
+    background-color: #FBD784;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: #000000;
+}
+#third-part .third-wrapper .eight a:hover{
+    background-color: #FFA343;
+    transition: 0.5s;
+}
+/* THIRD_PART CSS END */
+
+/* FOURTH_PART CSS START */
+.fourth-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#fourth-part .fourth-wrapper img{
+    padding: 295.08px 0;
+}
+#fourth-part .fourth-wrapper p{
+    font-family: "Open Sans", sans-serif;
+    padding-right: 37px;
+}
+#fourth-part .fourth-wrapper p .ten{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784;
+}
+#fourth-part .fourth-wrapper p .eleven{
+    font-family: "Open Sans", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    display: block;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 19px;
+}
+#fourth-part .fourth-wrapper p .twelve{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+    text-transform: uppercase;
+    line-height: 32px;
+    color: #ffffff;
+    margin-top: 19px;
+}
+#fourth-part .fourth-wrapper p .thirteen{
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    text-transform: uppercase;
+    color: #FBD784;
+    margin-top: 47px;
+}
+
+#fourth-part .fourth-wrapper .thirteen a{
+    background-color: #FBD784;
+    padding: 10px 20px;
+    border-radius: 7px;
+    color: #000000;
+}
+#fourth-part .fourth-wrapper .thirteen a:hover{
+    background-color: #FFA343;
+    transition: 0.5s;
+}
+/* FOURTH_PART CSS END */
+
+
+/* FOOTER_PART CSS END */
+#footer{
+    color: white;
+}
+#footer .footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+#footer .footer-top-right{
+    display: flex;
+    align-items: center;
+}
+#footer .footer-top-right p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    letter-spacing: -0.3px;
+    margin-right: 18px;
+}
+#footer .footer-top-right a{
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 18px 67px;
+    color: #000;
+    background-color: #FFA343;
+    border-radius: 10px;
+}
+
+#footer .footer-top-right a:hover{
+    background-color: #ff8400;
+    transition: 0.1s;
+}
+#footer .footer-middle{
+    display: flex;
+}
+#footer .footer-middle-first h4{
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: -0.3px;
+    width: 405px;
+}
+#footer .footer-middle-first{
+    padding-top: 70px;
+}
+#footer .footer-middle-first p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 49px;
+    letter-spacing: -0.2px;
+    padding-top: 36px;
+}
+#footer .footer-middle-first .icons{
+    display: flex;
+    padding-top: 48px;
+}
+#footer .footer-middle-first .icon2{
+    padding: 0 21px;
+}
+#footer .footer-middle-second{
+    padding-top: 70px;
+    padding-left: 275px;
+}
+#footer .footer-middle-second h5{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFD1A0;
+}
+#footer .footer-middle-second .services-items p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 19px;
+    color: #ffffff;
+    line-height: 38px;
+}
+
+#footer .footer-middle-third{
+    padding-top: 70px;
+    padding-left: 84px;
+}
+#footer .footer-middle-third h5{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFD1A0;
+}
+#footer .footer-middle-third .about-items p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 19px;
+    color: #ffffff;
+    line-height: 38px;
+}
+
+#footer .footer-middle-fourth{
+    padding-top: 70px;
+    padding-left: 84px;
+}
+#footer .footer-middle-fourth h5{
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFD1A0;
+}
+#footer .footer-middle-fourth .help-items p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 19px;
+    color: #ffffff;
+    line-height: 38px;
+}
+#footer .footer-bottom{
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 32px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 139px;
+    padding-bottom: 20px;
+}
+/* FOOTER_PART CSS END */
